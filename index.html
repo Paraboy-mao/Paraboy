@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    ParaboyAdmin
+  </title>
+  <script type="module" crossorigin src="/static/js/index-EwfiPtIx.js"></script>
+  <link rel="modulepreload" crossorigin href="/static/js/vue-K7LtoPyd.js">
+  <link rel="modulepreload" crossorigin href="/static/js/ElementPlus-heS2Cq9L.js">
+  <link rel="modulepreload" crossorigin href="/static/js/axios-dB_UgXDe.js">
+  <link rel="stylesheet" crossorigin href="/static/css/index-CEDFkd74.css">
+</head>
+
+<body>
+  <div id="app">
+    <style>
+      .app-loading {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #f0f2f5;
+      }
+
+      .app-loading .app-loading-wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .app-loading .app-loading-title {
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .app-loading .app-loading-logo {
+        width: 100px;
+        margin: 0 auto 15px auto;
+      }
+
+      .app-loading .app-loading-item {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+        border-radius: 50%;
+      }
+
+      .app-loading .app-loading-outter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 4px solid #9564FF;
+        border-bottom: 0;
+        border-left-color: transparent;
+        border-radius: 50%;
+        animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+      }
+
+      .app-loading .app-loading-inner {
+        position: absolute;
+        top: calc(50% - 20px);
+        left: calc(50% - 20px);
+        width: 40px;
+        height: 40px;
+        border: 4px solid #9564FF;
+        border-right: 0;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+      }
+
+      @-webkit-keyframes loader-outter {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes loader-outter {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @-webkit-keyframes loader-inner {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+        }
+      }
+
+      @keyframes loader-inner {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+        }
+      }
+    </style>
+    <div class="app-loading">
+      <div class="app-loading-wrap">
+        <div class="app-loading-title">
+          <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='34'%20height='33.570068359375'%20viewBox='0%200%2034%2033.570068359375'%20fill='none'%3e%3cpath%20d='M25.5042%2017.39C24.7991%2017.39%2024.112%2017.4856%2023.4668%2017.6709C23.0008%2017.8023%2022.5467%2017.9756%2022.1224%2018.1906C20.6765%2018.9195%2019.4995%2020.0966%2018.7706%2021.5426C18.4599%2022.1639%2018.2269%2022.8331%2018.1015%2023.5383C18.0118%2023.9863%2017.97%2024.4523%2017.97%2024.9244L17.97%2033.558C18.0596%2033.564%2018.1493%2033.57%2018.2389%2033.57C19.7564%2033.57%2021.0709%2032.6978%2021.7042%2031.431C21.9732%2030.9112%2022.1224%2030.3136%2022.1224%2029.6863L22.1224%2025.7787C22.1224%2023.4426%2024.0224%2021.5426%2026.3586%2021.5426L27.3564%2021.5426C28.7306%2021.5426%2029.9376%2020.8255%2030.6305%2019.75C30.6784%2019.6784%2030.7202%2019.6007%2030.762%2019.529C31.0667%2018.9734%2031.24%2018.3341%2031.24%2017.6589C31.24%2017.5693%2031.234%2017.4797%2031.2281%2017.39L25.5042%2017.39Z'%20fill='%238146FF'%20%3e%3c/path%3e%3cpath%20d='M18.239%203.18005C18.1494%203.18005%2018.0596%203.18602%2017.97%203.192L17.97%208.62776C17.97%209.43408%2018.0955%2010.2166%2018.3345%2010.9453L18.3406%2010.9453C18.4541%2011.3157%2018.5976%2011.6681%2018.7709%2012.0087C19.5001%2013.4541%2020.6775%2014.6309%2022.124%2015.3596C22.6618%2015.6344%2023.2416%2015.8435%2023.8512%2015.9748C24.3831%2016.0944%2024.939%2016.1601%2025.5068%2016.1601L33.988%2016.1601C33.9941%2016.0765%2034%2015.9868%2034%2015.8972C34%2014.4277%2033.1871%2013.1495%2031.9858%2012.4865C31.4299%2012.1818%2030.7905%2012.0087%2030.109%2012.0087L26.4691%2012.0087C26.4332%2012.0146%2026.3975%2012.0146%2026.3615%2012.0146C26.3256%2012.0146%2026.2899%2012.0146%2026.254%2012.0087C23.9647%2011.9548%2022.124%2010.0792%2022.124%207.77355L22.124%207.06276C22.124%205.52165%2021.2275%204.18951%2019.9244%203.56829C19.8468%203.52649%2019.769%203.49067%2019.6854%203.46081C19.2372%203.28156%2018.747%203.18005%2018.239%203.18005Z'%20fill='%238146FF'%20%3e%3c/path%3e%3cpath%20d='M7.70148%2021.5424C10.0376%2021.5424%2011.9375%2023.4423%2011.9375%2025.7783L11.9375%2027.2062C12.1167%2028.4788%2012.9114%2029.5542%2014.0168%2030.1158C14.1423%2030.1815%2014.2676%2030.2353%2014.3991%2030.2831C14.8293%2030.4503%2015.2953%2030.54%2015.7853%2030.54C15.8868%2030.54%2015.9885%2030.5341%2016.09%2030.528L16.09%2024.9239C16.09%2024.1771%2015.9825%2023.4482%2015.7733%2022.7672C15.6478%2022.343%2015.4866%2021.9307%2015.2894%2021.5424C14.5605%2020.0965%2013.3835%2018.9195%2011.9375%2018.1906C11.4416%2017.9397%2010.9098%2017.7426%2010.3542%2017.6111C9.78063%2017.4677%209.17725%2017.39%208.55586%2017.39L0.0119066%2017.39C0.0059533%2017.4797%200%2017.5692%200%2017.6589C0%2019.1466%200.836519%2020.4431%202.06724%2021.0942C2.61092%2021.381%203.23232%2021.5424%203.8896%2021.5424L7.70148%2021.5424Z'%20fill='%238146FF'%20%3e%3c/path%3e%3cpath%20d='M3.60746%2013.7764C3.52971%2013.8898%203.46403%2014.0093%203.40425%2014.1288C3.13536%2014.6605%202.98001%2015.2579%202.98001%2015.8971C2.98001%2015.9868%202.98604%2016.0763%202.99194%2016.16L8.55504%2016.16C9.31988%2016.16%2010.0548%2016.0466%2010.754%2015.8315C11.1663%2015.7119%2011.5606%2015.5506%2011.9372%2015.3594C13.3832%2014.6306%2014.5603%2013.4537%2015.2893%2012.008C15.5761%2011.4405%2015.7912%2010.8251%2015.9227%2010.1858C16.0363%209.68404%2016.09%209.15836%2016.09%208.62669L16.09%200.0119584C16.0064%200.0059792%2015.9167%200%2015.8272%200C14.3153%200%2013.0008%200.860197%2012.3614%202.12084C12.0925%202.6525%2011.9372%203.24994%2011.9372%203.88923L11.9372%207.77231C11.9372%2010.0783%2010.0966%2011.9542%207.80816%2012.008C7.77224%2012.014%207.73645%2012.014%207.70053%2012.014C7.66474%2012.014%207.62882%2012.014%207.59303%2012.008L6.86398%2012.008C5.49569%2012.008%204.29455%2012.7129%203.60746%2013.7764Z'%20fill='%238146FF'%20%3e%3c/path%3e%3c/svg%3e" class="app-loading-logo" alt="Logo" />
+          <div class="app-loading-title">
+            ParaboyAdmin
+          </div>
+        </div>
+        <div class="app-loading-item">
+          <div class="app-loading-outter"></div>
+          <div class="app-loading-inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
