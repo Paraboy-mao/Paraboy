@@ -1,1 +1,0 @@
-import{l as s}from"./index-9F9TBnAc.js";const e=e=>s.post("/sysRole/findSysRoleList",e),o=e=>s.post("/sysRole/removeSysRoleAndRoleMenuAndUserRoleByRoleCode",{},{params:e}),l=e=>s.post("/sysRole/saveOrUpdateSysRoleAndSysRoleMenu",e);export{e as f,o as r,l as s};
