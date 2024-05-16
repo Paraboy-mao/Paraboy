@@ -1,4 +1,4 @@
-import{a as i}from"./avatar-CIsR3BTP.js";import{l as a,ah as s,m as l,M as t,O as e,q as n,U as r,u as o,aE as c,aF as d}from"./vue-DiyBcK8j.js";import{_ as m}from"./index-OnaSmCsL.js";import"./ElementPlus-DLRbsWH9.js";import"./axios-dB_UgXDe.js";const f=i=>(c("data-v-b427a992"),i=i(),d(),i),u=f((()=>n("div",{style:{display:"flex","justify-content":"space-between"}},[
+import{a as i}from"./avatar-CIsR3BTP.js";import{l as a,ah as s,m as l,M as t,O as e,q as n,U as r,u as o,aE as c,aF as d}from"./vue-DiyBcK8j.js";import{_ as m}from"./index-Bv8ohjgM.js";import"./ElementPlus-DLRbsWH9.js";import"./axios-dB_UgXDe.js";const f=i=>(c("data-v-b427a992"),i=i(),d(),i),u=f((()=>n("div",{style:{display:"flex","justify-content":"space-between"}},[
 n("span",null,"项目动态"),
 n("a",{href:"https://gitee.com/juanmaoya/paraboy-admin",style:{color:"#409eff",cursor:"pointer"},target:"_blank"},"更多动态")],-1))),p={class:"infinite-list",style:{overflow:"auto"}},v={class:"infinite-list-item"},y=f((()=>n("div",{class:"infinite-list-item-info"},[
 n("h3",null,"Paraboy 在2024年3月28日创建了项目 paraboy-admin!"),
