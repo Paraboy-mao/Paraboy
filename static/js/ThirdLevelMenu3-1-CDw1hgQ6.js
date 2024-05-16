@@ -1,0 +1,1 @@
+import{_ as r}from"./index-DMX8mL35.js";import{m as e,p as s,T as t}from"./vue-DiyBcK8j.js";import"./ElementPlus-Blh3wzuW.js";import"./axios-dB_UgXDe.js";const o=r({},[["render",function(r,o){return e(),s("div",null,t(r.$t("router.ThirdLevelMenu3-1")),1)}]]);export{o as default};
