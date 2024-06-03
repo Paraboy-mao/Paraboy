@@ -1,1 +1,0 @@
-import{_ as e}from"./index-DpyzTFoH.js";import{m as r,p as o,T as s}from"./vue-DiyBcK8j.js";import"./ElementPlus-Dxo_w5_G.js";import"./axios-dB_UgXDe.js";const t=e({},[["render",function(e,t){return r(),o("div",null,s(e.$t("router.SecondLevel")),1)}]]);export{t as default};
